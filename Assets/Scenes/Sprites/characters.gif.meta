@@ -1892,16 +1892,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characters_45
+      name: Walk_01
       rect:
         serializedVersion: 2
         x: 291
-        y: 340
-        width: 14
-        height: 17
+        y: 341
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -1914,16 +1914,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characters_46
+      name: Walk_02
       rect:
         serializedVersion: 2
-        x: 306
+        x: 307
         y: 340
-        width: 13
+        width: 11
         height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 1, z: 0, w: 1}
       customData: 
       outline: []
       physicsShape: []
@@ -1936,16 +1936,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characters_47
+      name: Walk_03
       rect:
         serializedVersion: 2
-        x: 320
-        y: 340
-        width: 17
-        height: 18
+        x: 321
+        y: 341
+        width: 15
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
       customData: 
       outline: []
       physicsShape: []
@@ -1980,16 +1980,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characters_49
+      name: Jump
       rect:
         serializedVersion: 2
         x: 354
-        y: 340
+        y: 341
         width: 18
-        height: 18
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 0, z: 0, w: 1}
       customData: 
       outline: []
       physicsShape: []
@@ -6723,8 +6723,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Jump: 1820790034032967366
       Mario_Ideo: 4367732871754573918
       Mario_Idle: -1509298647979629103
+      Walk_01: -3889344650559148656
+      Walk_02: 1062266681453288945
+      Walk_03: -1981437635880020547
       characters_0: 3083089168873209362
       characters_1: -517894308114096243
       characters_10: 7729768860333772239
@@ -6927,11 +6931,7 @@ TextureImporter:
       characters_41: 8262985221905841761
       characters_42: 2011002775766109113
       characters_43: -6878064802024223989
-      characters_45: -3889344650559148656
-      characters_46: 1062266681453288945
-      characters_47: -1981437635880020547
       characters_48: -7365091535247084893
-      characters_49: 1820790034032967366
       characters_5: -6066236442320969475
       characters_50: -6626920692342517838
       characters_51: -3501350889093356843

@@ -359,16 +359,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tile Sets Super Mario Bros_mod_6
+      name: Nuvem
       rect:
         serializedVersion: 2
-        x: 623
-        y: 143
-        width: 50
-        height: 26
+        x: 624
+        y: 144
+        width: 49
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
       customData: 
       outline: []
       physicsShape: []
@@ -1093,7 +1093,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1121,6 +1121,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Ground: -1685544529
+      Nuvem: 6844607564225479327
       Tile Sets Super Mario Bros_mod_0: -32438325932106910
       Tile Sets Super Mario Bros_mod_1: -6867500245155780457
       Tile Sets Super Mario Bros_mod_10: -3757864091062909565
@@ -1156,7 +1157,6 @@ TextureImporter:
       Tile Sets Super Mario Bros_mod_38: 6594547975434376400
       Tile Sets Super Mario Bros_mod_4: -3228776174791074634
       Tile Sets Super Mario Bros_mod_5: -1142967863566600483
-      Tile Sets Super Mario Bros_mod_6: 6844607564225479327
       Tile Sets Super Mario Bros_mod_7: 3140765700267166853
       Tile Sets Super Mario Bros_mod_8: 2800661661269387612
       Tile Sets Super Mario Bros_mod_9: 3627050226806988327

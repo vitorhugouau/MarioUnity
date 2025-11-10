@@ -10,14 +10,27 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] bool inFloor = true;
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundLayer;
+    [SerializeField] public AudioClip pulo;
+    [SerializeField] public AudioClip gameover;
+     
+    private AudioSource tocadorAudio;
+    private GameManager gameManager;
 
     Animator animPlayer;
 
+    void Start()
+    {
+        gameManager = FindObjectOfType<GameManager>();
+    }
 
     private void Awake()
     {
         animPlayer = GetComponent<Animator>();
         rbPlayer = GetComponent<Rigidbody2D>();
+        tocadorAudio = GetComponent<AudioSource>();
+
+        if (tocadorAudio == null)
+            tocadorAudio = gameObject.AddComponent<AudioSource>();
     }
 
     private void Update()
@@ -61,6 +74,19 @@ public class PlayerMovement : MonoBehaviour
         {
             rbPlayer.linearVelocity = Vector2.up * jumpForce;
             isJump = false;
+            tocadorAudio.PlayOneShot(pulo);
+        }
+    }
+     private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Obstacles"))
+        {
+            gameManager.GameOver();
+            tocadorAudio.PlayOneShot(gameover);
+        }
+        if (collision.CompareTag("Scoring"))
+        {
+            gameManager.Scoring();
         }
     }
 }
